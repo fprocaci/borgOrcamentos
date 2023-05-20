@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-form',
   templateUrl: './form.component.html',
-  styleUrls: ['./form.component.sass']
+  styleUrls: ['./form.component.scss'],
 })
-export class FormComponent {
-
-}
+export class FormComponent {}
