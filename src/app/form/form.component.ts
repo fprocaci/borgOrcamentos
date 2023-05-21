@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Formdata } from '../model/formdata';
 import { Materiais } from '../model/materiais';
 import { Servicos } from '../model/servicos';
+import { jsPDF } from "jspdf";
+import { PdfService } from './pdf.service';
 
 @Component({
   selector: 'app-form',
@@ -13,7 +15,7 @@ export class FormComponent implements OnInit{
   materiais:Materiais = new Materiais();
   servicos: Servicos = new Servicos();
   
-  constructor(){
+  constructor(public pdfService:PdfService){
 
 
   }
@@ -29,10 +31,10 @@ export class FormComponent implements OnInit{
   }
 
   gerarPDF(){
-    console.log("FormData",this.formData);
+    this.pdfService.gerarPDF(this.formData);
   }
   
   ngOnInit(): void {
-    console.log(this.formData)
+    
   }
 }
