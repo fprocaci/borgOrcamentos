@@ -1,3 +1,14 @@
 form {
   text-align: center;
+}
+.servicos-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.servicos-header > button {
+  position: absolute;
+  right: 20px;
+  border-radius: 50%;
 }/*# sourceMappingURL=form.component.css.map */
