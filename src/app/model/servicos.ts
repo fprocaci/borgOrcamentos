@@ -1,7 +1,7 @@
 export class Servicos {
     codigo:String  = "";
     nome:String = ""; 
-    quantidade:Number = 0;
+    quantidade:String = "";
     preco:String = "";
     subtotal:String = "";
 }

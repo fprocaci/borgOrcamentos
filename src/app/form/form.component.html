@@ -11,38 +11,25 @@
           <div class="card-body">
             <div class="row mb-3">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Razão social"
-                  aria-label="Razão social"
-                />
+                <input type="text" class="form-control"
+                  [(ngModel)]="formData.empresaResponsavel.razaoSocial" name="empresaResponsavel_razaoSocial"
+                  placeholder="Razão social" aria-label="Razão social" />
               </div>
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="E-mail de contato"
-                  aria-label="E-mail de contato"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.empresaResponsavel.emailDeContato"
+                  name="empresaResponsavel_emailDeContato" placeholder="E-mail de contato"
+                  aria-label="E-mail de contato" />
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Celular / WhatsApp"
-                  aria-label="Celular / WhatsApp"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.empresaResponsavel.celularWpp"
+                  name="empresaResponsavel_celularWpp" placeholder="Celular / WhatsApp"
+                  aria-label="Celular / WhatsApp" />
               </div>
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="CPF"
-                  aria-label="CPF"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.empresaResponsavel.cpf"
+                  name="empresaResponsavel_cpf" placeholder="CPF" aria-label="CPF" />
               </div>
             </div>
           </div>
@@ -56,48 +43,28 @@
           <div class="card-body">
             <div class="row mb-3">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Razão social"
-                  aria-label="Razão social"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.cliente.razaoSocial"
+                  name="cliente_razaoSocial" placeholder="Razão social" aria-label="Razão social" />
               </div>
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="E-mail de contato"
-                  aria-label="E-mail de contato"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.cliente.emailDeContato"
+                  name="cliente_emailDeContato" placeholder="E-mail de contato" aria-label="E-mail de contato" />
               </div>
             </div>
             <div class="row mb-3">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Celular / WhatsApp"
-                  aria-label="Celular / WhatsApp"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.cliente.celularWpp"
+                  name="cliente_celularWpp" placeholder="Celular / WhatsApp" aria-label="Celular / WhatsApp" />
               </div>
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="CPF"
-                  aria-label="CPF"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.cliente.cpf" name="cliente_cpf"
+                  placeholder="CPF" aria-label="CPF" />
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Endereço"
-                  aria-label="Endereço"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.cliente.endereco" name="cliente_endereco"
+                  placeholder="Endereço" aria-label="Endereço" />
               </div>
             </div>
           </div>
@@ -111,48 +78,28 @@
           <div class="card-body">
             <div class="row mb-3">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Nome"
-                  aria-label="Nome"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.ativo.nome" name="ativo_nome"
+                  placeholder="Nome" aria-label="Nome" />
               </div>
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Local do ativo"
-                  aria-label="Local do ativo"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.ativo.localDoAtivo"
+                  name="ativo_localDoAtivo" placeholder="Local do ativo" aria-label="Local do ativo" />
               </div>
             </div>
             <div class="row mb-3">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Modelo"
-                  aria-label="Modelo"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.ativo.modelo" name="ativo_modelo"
+                  placeholder="Modelo" aria-label="Modelo" />
               </div>
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Marca"
-                  aria-label="Marca"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.ativo.marca" name="ativo_marca"
+                  placeholder="Marca" aria-label="Marca" />
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Patrimônio / Número de série"
-                  aria-label="Patrimônio / Número de série"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.ativo.patrimonio" name="ativo_patrimonio"
+                  placeholder="Patrimônio / Número de série" aria-label="Patrimônio / Número de série" />
               </div>
             </div>
           </div>
@@ -166,22 +113,14 @@
           <div class="card-body">
             <div class="row mb-3">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Horário de início"
-                  aria-label="Horário de início"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.inicioTrabalho.horario"
+                  name="inicioTrabalho_horario" placeholder="Horário de início" aria-label="Horário de início" />
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Localização GPS"
-                  aria-label="Localização GPS"
-                />
+                <input type="text" class="form-control" [(ngModel)]="formData.inicioTrabalho.localizacao"
+                  name="inicioTrabalho_localizacao" placeholder="Localização GPS" aria-label="Localização GPS" />
               </div>
             </div>
           </div>
@@ -195,12 +134,8 @@
           <div class="card-body">
             <div class="row mb-3">
               <div class="col">
-                <textarea
-                  class="form-control"
-                  placeholder="Descrição da solicitação"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                ></textarea>
+                <textarea class="form-control" [(ngModel)]="formData.proposta" name="proposta"
+                  placeholder="Descrição da solicitação" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
             </div>
           </div>
@@ -208,52 +143,161 @@
 
         <!--Serviços-->
         <div class="card border-secondary mb-3">
-          <div class="card-header bg-secondary border-secondary text-center"><b>Serviços</b></div>
+          <div class="card-header bg-secondary border-secondary text-center"><b>Serviços a Realizar</b></div>
           <div class="card-body">
-              <table class="table">
-                  <thead>
-                    <tr>
-                      <th scope="col">Código</th>
-                      <th scope="col">Nome</th>
-                      <th scope="col">Quantidade</th>
-                      <th scope="col">Preço unitário</th>
-                      <th scope="col">Subtotal</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th></th>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                  </tbody>
-                </table>
-              <div class="row mb-3">
-                  <div class="col">
-                      <input type="text" class="form-control" placeholder="Código" aria-label="Código">
-                  </div>
-                  <div class="col">
-                      <input type="text" class="form-control" placeholder="Nome"
-                          aria-label="Nome">
-                  </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Código</th>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Quantidade</th>
+                  <th scope="col">Preço unitário</th>
+                  <th scope="col">Subtotal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let servico of formData.servicos">
+                  <th>{{servico.codigo}}</th>
+                  <td>{{servico.nome}}</td>
+                  <td>{{servico.quantidade}}</td>
+                  <td>{{servico.preco}}</td>
+                  <td>{{servico.subtotal}}</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="servicos.codigo" name="servicos_codigo"
+                  placeholder="Código" aria-label="Código">
               </div>
-              <div class="row mb-3">
-                  <div class="col">
-                      <input type="text" class="form-control" placeholder="Quantidade"
-                          aria-label="Quantidade">
-                  </div>
-                  <div class="col">
-                      <input type="text" class="form-control" placeholder="Preço unitário" aria-label="Preço unitário">
-                  </div>
-                  <div class="col">
-                      <input type="text" class="form-control" placeholder="Subtotal"
-                          aria-label="Subtotal">
-                  </div>
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="servicos.nome" name="servicos_nome"
+                  placeholder="Nome" aria-label="Nome">
               </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="servicos.quantidade" name="servicos_quantidade"
+                  placeholder="Quantidade" aria-label="Quantidade">
               </div>
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="servicos.preco" name="servicos_preco"
+                  placeholder="Preço unitário" aria-label="Preço unitário">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="servicos.subtotal" name="servicos_subtotal"
+                  placeholder="Subtotal" aria-label="Subtotal">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <button type="button" (click)="incluiServico(servicos)" class="btn btn-outline-success">Incluir
+                Serviço</button>
+            </div>
           </div>
+        </div>
+
+        <!--Peças/Materiais-->
+        <div class="card border-secondary mb-3">
+          <div class="card-header bg-secondary border-secondary text-center"><b>Peças/Materiais</b></div>
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Código</th>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Quantidade</th>
+                  <th scope="col">Preço unitário</th>
+                  <th scope="col">Subtotal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let material of formData.materiais">
+                  <th>{{material.codigo}}</th>
+                  <td>{{material.nome}}</td>
+                  <td>{{material.quantidade}}</td>
+                  <td>{{material.preco}}</td>
+                  <td>{{material.subtotal}}</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="materiais.codigo" name="materiais_codigo"
+                  placeholder="Código" aria-label="Código">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="materiais.nome" name="materiais_nome"
+                  placeholder="Nome" aria-label="Nome">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="materiais.quantidade" name="materiais_quantidade"
+                  placeholder="Quantidade" aria-label="Quantidade">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="materiais.preco" name="materiais_preco"
+                  placeholder="Preço unitário" aria-label="Preço unitário">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="materiais.subtotal" name="materiais_subtotal"
+                  placeholder="Subtotal" aria-label="Subtotal">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <button type="button" (click)="incluiMateriais(materiais)" class="btn btn-outline-success">Incluir
+                Serviço</button>
+            </div>
+          </div>
+        </div>
+
+        <!--Valor total-->
+        <div class="card border-secondary mb-3">
+          <div class="card-header bg-secondary border-secondary text-center">
+            <b>Valor total</b>
+          </div>
+          <div class="card-body">
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="formData.valorTotal.valorServico"
+                  name="valorTotal_valorServico" placeholder="Valor dos serviços em reais (R$)"
+                  aria-label="Valor dos serviços em reais (R$)" />
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="formData.valorTotal.valorMateriais"
+                  name="valorTotal_valorMateriais" placeholder="Valor doa materiais/peças em reais (R$)"
+                  aria-label="Valor doa materiais/peças em reais (R$)" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="formData.valorTotal.valorTotal"
+                  name="valorTotal_valorTotal" placeholder="Valor total em reais (R$)"
+                  aria-label="Valor total em reais (R$)" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Observações-->
+        <div class="card border-secondary mb-3">
+          <div class="card-header bg-secondary border-secondary text-center">
+            <b>Observações</b>
+          </div>
+          <div class="card-body">
+            <div class="row mb-3">
+              <div class="col">
+                <textarea class="form-control" [(ngModel)]="formData.observacoes" name="observacoes"
+                  placeholder="Observações" id="observacoes" rows="3"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card  mb-3">
+          <button (click)="gerarPDF()" type="button" class="btn btn-outline-success">Gerar PDF</button>
+        </div>
+
       </form>
     </div>
   </div>
