@@ -3,3 +3,17 @@ form {
   h1 {
   }
 }
+
+.servicos-header {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > button {
+    position: absolute;
+    right: 20px;
+    border-radius: 50%;
+  }
+}
