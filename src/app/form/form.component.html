@@ -208,104 +208,52 @@
 
         <!--Serviços-->
         <div class="card border-secondary mb-3">
-          <div
-            class="servicos-header card-header bg-secondary border-secondary text-center"
-          >
-            <b>Serviços a realizar</b>
-
-            <!-- Button trigger modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              +
-            </button>
-
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">
-                      Código, Nome, Quantidade e Preço unitário
-                    </h1>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <form>
-                      <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label"
-                          >Recipient:</label
-                        >
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="recipient-name"
-                        />
-                      </div>
-                      <div class="mb-3">
-                        <label for="message-text" class="col-form-label"
-                          >Message:</label
-                        >
-                        <textarea
-                          class="form-control"
-                          id="message-text"
-                        ></textarea>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Fechar
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                      Salvar
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="card-header bg-secondary border-secondary text-center"><b>Serviços</b></div>
           <div class="card-body">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Código</th>
-                  <th scope="col">Nome</th>
-                  <th scope="col">Quantidade</th>
-                  <th scope="col">Preço unitário</th>
-                  <th scope="col">Subtotal</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th></th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Código</th>
+                      <th scope="col">Nome</th>
+                      <th scope="col">Quantidade</th>
+                      <th scope="col">Preço unitário</th>
+                      <th scope="col">Subtotal</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              <div class="row mb-3">
+                  <div class="col">
+                      <input type="text" class="form-control" placeholder="Código" aria-label="Código">
+                  </div>
+                  <div class="col">
+                      <input type="text" class="form-control" placeholder="Nome"
+                          aria-label="Nome">
+                  </div>
+              </div>
+              <div class="row mb-3">
+                  <div class="col">
+                      <input type="text" class="form-control" placeholder="Quantidade"
+                          aria-label="Quantidade">
+                  </div>
+                  <div class="col">
+                      <input type="text" class="form-control" placeholder="Preço unitário" aria-label="Preço unitário">
+                  </div>
+                  <div class="col">
+                      <input type="text" class="form-control" placeholder="Subtotal"
+                          aria-label="Subtotal">
+                  </div>
+              </div>
+              </div>
           </div>
-        </div>
       </form>
     </div>
   </div>
