@@ -1,1 +1,39 @@
-/*# sourceMappingURL=footer.component.css.map */
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #31b24e;
+  color: #ffffff;
+  font-size: 18px;
+}
+footer .content {
+  width: 1200px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .content p {
+  margin: 0;
+}
+footer .content p a {
+  color: #007c18;
+  text-decoration: none;
+}
+footer .content p a span {
+  font-weight: bold;
+}
+footer .content p a:hover {
+  color: #ffffff;
+}
+footer .content button {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  right: 100px;
+  border-radius: 0.3rem;
+  outline: none;
+  border: none;
+}/*# sourceMappingURL=footer.component.css.map */
