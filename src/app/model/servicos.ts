@@ -1,7 +1,7 @@
 export class Servicos {
-    codigo:String  = "";
-    nome:String = ""; 
-    quantidade:String = "";
-    preco:String = "";
-    subtotal:String = "";
+    codigo:string  = "";
+    nome:string = ""; 
+    quantidade:string = "";
+    preco:string = "";
+    subtotal:string = "";
 }
